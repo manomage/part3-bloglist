@@ -5,10 +5,11 @@ A blog list application that allows users to save information about interesting 
 
 To start an application:
 
-# Install dependancies
+# Install dependencies
 $ npm install
 
-# create a .env file and put there the MONGODB_URI for connecting to your mongodb database
+create a .env file and put there the MONGODB_URI for connecting to your mongodb database
+
 $ echo "MONGODB_URI=<YOUR-MONGODB-URI>" > .env
 $ echo "TEST_MONGODB_URI=<YOUR-TEST-MONGODB-URI>" > .env
 $ echo "DEV_MONGODB_URI=<YOUR-DEV-MONGODB-URI>" > .env
@@ -19,7 +20,7 @@ $ echo "SECRET=yoursecretphrase" > .env
 # Start the application in dev environment
 $ npm run dev
 
-# Start the application in prod environment
+# Start the application in production environment
 $ npm start
 
 # Start the application in test environment and run tests
@@ -33,5 +34,7 @@ Create, List, Update & Delete Blogs (POST, GET, PUT, DELETE) for an authenticate
 Those operations are possible using REST APIs on the following enpoints (add /ID for PUT & DELETE):
 
 http://localhost:3001/api/login
+  
 http://localhost:3001/api/users
+  
 http://localhost:3001/api/blogs
