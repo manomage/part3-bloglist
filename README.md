@@ -26,11 +26,15 @@ $ npm start
 # Start the application in test environment and run tests
 $ run start:test
 $ npm test
+  
 Once successfully connected, the app allows you to perform the following operations:
 
 Create & List Users (POST, GET)
+  
 Login using username and password (POST)
+  
 Create, List, Update & Delete Blogs (POST, GET, PUT, DELETE) for an authenticated user
+  
 Those operations are possible using REST APIs on the following enpoints (add /ID for PUT & DELETE):
 
 http://localhost:3001/api/login
