@@ -8,8 +8,7 @@ To start an application:
 # Install dependencies
 $ npm install
 
-create a .env file and put there the MONGODB_URI for connecting to your mongodb database
-
+# create a .env file and put there the MONGODB_URI for connecting to your mongodb database
 $ echo "MONGODB_URI=<YOUR-MONGODB-URI>" > .env
 $ echo "TEST_MONGODB_URI=<YOUR-TEST-MONGODB-URI>" > .env
 $ echo "DEV_MONGODB_URI=<YOUR-DEV-MONGODB-URI>" > .env
@@ -25,6 +24,7 @@ $ npm start
 
 # Start the application in test environment and run tests
 $ run start:test
+  
 $ npm test
   
 Once successfully connected, the app allows you to perform the following operations:
